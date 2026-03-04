@@ -1,3 +1,62 @@
+# AES Image Encryption Project 🔐🖼️
+
+This project demonstrates encryption and decryption of images using the Advanced Encryption Standard (AES). The assignment explores how modern symmetric cryptography works when applied to real data such as image files.
+
+---
+
+## Project Notebooks
+
+### Main Assignment
+AES image encryption and experimentation with AES modes.
+
+➡️ [AES-Images Notebook](./AES-Images.ipynb)
+
+This notebook demonstrates:
+
+- Loading an image
+- Encrypting image data using AES
+- Comparing encryption modes
+- Visualizing encrypted images
+- Recovering the original image
+
+---
+
+### CBC Decryption Challenge
+
+Decrypting a classmate’s encrypted image using AES-CBC.
+
+➡️ [CBC Decrypt Notebook](./CBC%20Decrypt.ipynb)
+
+This notebook demonstrates:
+
+- Reading encrypted image data
+- Extracting the initialization vector (IV)
+- Decrypting the ciphertext using AES-CBC
+- Recovering and displaying the original image
+
+---
+
+## Technologies Used
+
+- Python
+- PyCryptodome
+- Pillow
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Learning Outcomes
+
+Through this project I learned:
+
+- How AES encryption works in practice
+- The role of initialization vectors (IVs) in CBC mode
+- How encrypted data appears random
+- How to correctly decrypt ciphertext to recover original data
+
+--
+
 # AES Image Encryption Toolkit 🔐🖼️
 
 This project demonstrates how to encrypt and decrypt images using the Advanced Encryption Standard (AES) in CBC mode. The program reads an image file, encrypts its bytes using AES, and produces an encrypted file. The encrypted file can then be decrypted to recover the original image.
