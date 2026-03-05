@@ -2,10 +2,12 @@
 
 This project demonstrates how images can be encrypted and decrypted using the Advanced Encryption Standard (AES). The goal of the assignment was to implement AES encryption in software, apply it to image data, and demonstrate how encrypted images can be securely shared and decrypted by others who possess the correct cryptographic parameters.
 
-The project includes two notebooks:
+The project includes two notebooks and an encrypted image:
 
 1. **AES-Images.ipynb** – main implementation of AES image encryption and decryption
 2. **CBC Decrypt.ipynb** – decrypting a classmate’s encrypted image
+3. **[cbc_encrypted.bin File](./cbc_encrypted.bin)** - encrypted file
+
 
 ---
 
